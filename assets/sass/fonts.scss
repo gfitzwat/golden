@@ -1,0 +1,19 @@
+body{font: normal $font-default/$line-height Verdana, Geneva, sans-serif;}
+
+#top h1,.caption{font-family:Pacifico, Verdana, sans-serif; }
+.caption{font-weight:normal;}
+
+h1,h2,h3,h4,h5{line-height:1.25em;}
+h1{font-size:$font-xxlg;}
+h2{font-size:$font-xlg}
+h3{font-size:$font-lg}
+h4{font-size:$font-med}
+
+h5,.btn{font-size:$font-default;}
+small{font-size:$font-xsmall;}
+.hdr-main{line-height:0;white-space: nowrap;;}
+a:link {text-decoration: none;color: #018EEA}
+a:visited {text-decoration: none;color:   #018EEA}
+a:hover {text-decoration: none; color:#f00;}
+a:active {text-decoration: none;color:  #999}
+

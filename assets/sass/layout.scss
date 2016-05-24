@@ -1,0 +1,62 @@
+html { box-sizing: border-box;height:100%;min-height:100%;}*, *:before, *:after { box-sizing: inherit;}
+body{height:100%;min-height:100%;}
+#wrapper {  width: 100%;   text-align: center;  margin: 0 auto;  min-height: 77%;  height:100%; }
+#page {  width: 100%;  margin: 1em auto 1em;  height:100%;min-height:100% ; clear:both; ; position:relative;}
+
+.float-right,.gr-col-lg.float-right,.gr-col-sm.float-right{float:right;}
+.float-left,.gr-col-lg.float-left,.gr-col-sm.float-left{float:left;}
+
+// golden ratio
+.gr-col-lg, .gr-col-sm, .gr-container{float:left; height:100%;padding:.5%;min-height:100%; }
+.gr-container{padding:0; }
+.gr-col-lg{width:62%;}
+.gr-col-sm{width:38%;}
+.gr-container{width:100%;min-width:100%;}
+
+.border-left-sm{border-left:1px solid #ccc;}
+.border-right-sm{border-right:1px solid #ccc;}
+
+main{margin:80px auto; padding:0; }
+
+.btn{border-radius:5px; padding:$font-xxsmall; border:1px solid #fff; background:#fff; display:inline-block; margin:$font-small 0;}
+
+.clear-both{clear:both; float:left;;width:100%;}
+
+
+/* homepage */
+
+.pic-text{margin:$font-lg; }
+
+/*https://s3.amazonaws.com/mattfitzwater.com/img/large/old-fence.jp */
+.fence{background: url("/assets/img/old-fence.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+
+}
+section{float:left;}
+#flexer{background:black;  min-width:100%;  margin:0; color:$light-color;padding:$font-lg}
+.flex{background:#ccc; flex:1; border:1px dashed #fff;margin:10px;}
+.parent-box{display:flex; float:left; flex-flow: row wrap; }
+
+.flex-2{flex:2;}
+.flex-3{flex:3;}
+.flex-4{flex:4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
